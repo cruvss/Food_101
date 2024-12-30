@@ -8,10 +8,14 @@ The Food-101 dataset is a large-scale collection of food images. It contains 101
   - **Test set:**       30,300 images (300 images per class)
 
 # Current Progress
-
+## v1.0
 - Model Used: DeiT (Data-efficient Image Transformer)
 - Accuracy Achieved: 78% on the test set
 - Status: Fine-tuning of the final model is yet to be completed to further optimize accuracy.
+
+## v1.1
+- Model Used: swin-transformer
+- Accuracy Achieved: 85% on the test set
 
 # Important Links
 
