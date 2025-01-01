@@ -17,7 +17,19 @@ The Food-101 dataset is a large-scale collection of food images. It contains 101
 - Model Used: swin-transformer
 - Accuracy Achieved: 85% on the test set
 
+# Contribution
+Contributions are welcome! If you'd like to contribute to this project, here are some guidelines:
+
+  - Objective: Develop models with higher accuracy than the current 85% on the test set.
+  - Model Constraints: The model should be efficient and small in size (less than 300mb) to ensure usability in production environments.
+
+Feel free to submit a pull request or open an issue to discuss your ideas!
+
 # Important Links
 
 - [Food-101 Dataset](https://www.kaggle.com/datasets/dansbecker/food-101)
 - [DeiT Documentation](https://huggingface.co/docs/transformers/en/model_doc/deit)
+- [Swin-Transformer Documentation](https://huggingface.co/docs/transformers/model_doc/swin)
+
+
+
