@@ -1,15 +1,17 @@
 import gradio as gr 
 import os 
 import torch
+import json 
 
 from model import create_swin_transformer
 from timeit import default_timer as timer
 
-class_names = os.listdir(r'..\data\food-101\Test')
+with open("class_names.json", "r") as f:
+    class_names = json.load(f)
 
 swin_model, swin_transforms = create_swin_transformer()
 
-swin_model.load_state_dict(torch.load(r'D:\Code\Machine_Learning\DeepLearning\Food101\models\swin.pth', weights_only=True ))
+swin_model.load_state_dict(torch.load('swin.pth', weights_only=True ))
 
 def predict_image(img):
     
